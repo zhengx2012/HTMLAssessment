@@ -1,0 +1,36 @@
+.subjectHeader {
+  font-family: sans-serif;
+  color: #00551C;
+}
+
+#scoreBoard {
+  color: darkorange;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#scoreBoard > caption {
+  font-weight: bold;
+
+}
+
+ul > li {
+  list-style: square;
+}
+
+a:hover{
+  background-color: darkorange;
+  text-decoration: none;
+}
+
+blockquote em{
+  background-color: navy;
+  color: beige;
+}
+
+ul > li > img:first-child {
+}
+
+form > ul > li {
+  list-style: none;
+}
