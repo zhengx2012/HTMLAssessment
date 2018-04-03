@@ -12,7 +12,7 @@
 
     <p><strong>Lorem</strong> ipsum dolor amet stumptown brooklyn cornhole fashion axe before they sold out franzen sustainable chicharrones small batch farm-to-table chartreuse man bun venmo. Stumptown shoreditch pickled cardigan food truck blue bottle. Drinking vinegar letterpress microdosing farm-to-table art party disrupt. Raw denim locavore man braid, 3 wolf moon chia woke poutine 8-bit selvage chartreuse. Jean shorts skateboard master cleanse squid, banh mi pop-up williamsburg cardigan four dollar toast. La croix plaid air plant fingerstache whatever edison bulb seitan chillwave banh mi selvage tacos flexitarian. Tofu taiyaki meggings gluten-free vape quinoa locavore butcher poutine pitchfork authentic literally.</p>
 
-    <h2>Table</h2>
+    <h2>TABLE</h2>
     <table border="1">
       <caption>Scores by Quarter</caption>
       <tr>
@@ -53,9 +53,9 @@
       </tr>
     </table>
 
-    <h2>List</h2>
+    <h2>LIST</h2>
     <ul>
-      <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/344px-Denver_Broncos_logo.svg.png" alt="Denver Broncos Logo" width="150"></li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Denver_Broncos_logo.svg/344px-Denver_Broncos_logo.svg.png" alt="Denver Broncos Logo" width="100"></li>
       <li><a href="http://www.denverbroncos.com/">Denver Broncos</a></li>
       <ul>
         <li>Quarter Back</li>
@@ -67,7 +67,7 @@
       </ul>
     </ul>
     <ul>
-      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/193px-Chicago_Bears_logo.svg.png" alt="Chicago Bears Logo" width="150"></li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chicago_Bears_logo.svg/193px-Chicago_Bears_logo.svg.png" alt="Chicago Bears Logo" width="100"></li>
       <li><a href="http://www.chicagobears.com/">Chicago Bears</a></li>
       <ul>
         <li>Quarter Back</li>
@@ -78,5 +78,33 @@
         </ul>
       </ul>
     </ul>
+
+    <h2>FORM</h2>
+    <form class="" action="index.html" method="post">
+      First: <input type="firstName" name="First: " value="">
+      Last: <input type="lastName" name="Last: " value="">
+      <br>
+      Favorite Sport: <select class="FavoriteSport" name="favoriteSport">
+        <option value="basketball">Basketball</option>
+        <option value="football">Football</option>
+        <option value="soccer">Soccer</option>
+        <option value="tennis">Tennis</option>
+      </select>
+      <br>
+      I have: <input type="checkbox" name="personallyDone" value="attended">
+        <label for="attended">Attended</label>
+        <input type="checkbox" name="personallyDone" value="bet">
+        <label for="bet">Bet</label>
+        <input type="checkbox" name="personallyDone" value="coached">
+        <label for="coached">Coached</label>
+        <input type="checkbox" name="personallyDone" value="played">
+        <label for="played">Played</label> on this sport.
+        <br>
+        I prefer: <input type="radio" name="sportsLevel" value="amateur">Amateur
+        <input type="radio" name="sportsLevel" value="college">College
+        <input type="radio" name="sportsLevel" value="professional">Professinal
+        <br>
+        <input type="submit" value="Submit">
+    </form>
   </body>
 </html>
