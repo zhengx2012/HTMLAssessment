@@ -29,23 +29,11 @@ blockquote em{
   color: beige;
 }
 
-#teamRoster > li:first-child{
-  z-index: -1;
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-
-}
-
-#teamRoster > li:last-child{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
 #teamRoster >li > img{
-  visibility: hidden;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  opacity: .3;
 }
 
 form > ul > li {
